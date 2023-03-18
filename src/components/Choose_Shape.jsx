@@ -14,22 +14,22 @@ const Choose = () => {
                 </div>
                 <nav className='navbar'>
                     <ul>
+                    <a href='/'>
                         <li>
-                            <a href='/'>
-                                <div className='nav-sec'>
-                                    <div></div>
-                                    <p>Explore</p>
-                                </div>
-                            </a>
+                          <div className='nav-sec'>
+                              <div></div>
+                              <p>Explore</p>
+                          </div>    
                         </li>
-                        <li>
-                            <a href='/about'>
-                                <div className='nav-sec'>
-                                    <div></div>
-                                    <p>About</p>
-                                </div>
-                            </a>
+                        </a>
+                        <a href='/about'>
+                        <li> 
+                            <div className='nav-sec'>
+                                <div></div>
+                                <p>About</p>
+                            </div>
                         </li>
+                        </a>
                     </ul>
                 </nav>
             </header>
